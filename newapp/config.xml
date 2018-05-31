@@ -43,10 +43,10 @@
   <splash platform="android" qualifier="port-hdpi" src="screen/screen-hdpi-portrait.png" />
   <splash platform="android" qualifier="port-xhdpi" src="screen/screen-xhdpi-portrait.png" />
     
-  <splash platform="android" qualifier="port-ldpi" src="screen/android/screen-ldpi-portrait.png" />
-  <splash platform="android" qualifier="port-mdpi" src="screen/android/screen-mdpi-portrait.png" />
-  <splash platform="android" qualifier="port-hdpi" src="screen/android/screen-hdpi-portrait.png" />
-  <splash platform="android" qualifier="port-xhdpi" src="screen/android/screen-xhdpi-portrait.png" />  
+  <splash platform="android" qualifier="port-ldpi" src="screen/screen-ldpi-portrait.png" />
+  <splash platform="android" qualifier="port-mdpi" src="screen/screen-mdpi-portrait.png" />
+  <splash platform="android" qualifier="port-hdpi" src="screen/screen-hdpi-portrait.png" />
+  <splash platform="android" qualifier="port-xhdpi" src="screen/screen-xhdpi-portrait.png" />  
     
   <splash src="splash.png" />
     
