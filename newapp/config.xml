@@ -3,7 +3,7 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.newapp.example"
     versionCode = "10"
-    version     = "1.0.0" >
+    version     = "2.0.0" >
 
 <!-- versionCode is optional and Android only -->
 
@@ -17,6 +17,27 @@
       Lingaraj Senapati
   </author>
 
-     <icon src="booking.png" />
+  <icon src="booking.png" />
+    
+  <preference name="orientation" value="portrait" />
+  <preference name="fullscreen" value="true" />
+  <preference name="KeepRunning" value="false"/>
+  <preference name="SplashScreen" value="screen"/>
+  
+  <plugin name="cordova-plugin-whitelist" source="npm" />
+  <plugin name="cordova-plugin-x-socialsharing" source="npm" />
+  <plugin name="cordova-plugin-inappbrowser" source="npm"/>
+  <plugin name="cordova-plugin-network-information" source="npm" />
+  <plugin name="cordova-universal-clipboard" source="npm"/>
+  <plugin name="phonegap-plugin-barcodescanner" source="npm"/>
+  <plugin name="cordova-plugin-x-toast" />
+  
+  <plugin name="cordova-plugin-splashscreen" source="npm" />
+   
+  <preference name = "SplashScreenDelay" value = "3000" />
+  
+  <splash src="splash.png" />
+  
+    
     
 </widget>
