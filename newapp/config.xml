@@ -22,7 +22,7 @@
   <preference name="orientation" value="portrait" />
   <preference name="fullscreen" value="true" />
   <preference name="KeepRunning" value="false"/>
-  <preference name="SplashScreen" value="screen"/>
+  
   
   <plugin name="cordova-plugin-whitelist" source="npm" />
   <plugin name="cordova-plugin-x-socialsharing" source="npm" />
@@ -33,11 +33,21 @@
   <plugin name="cordova-plugin-x-toast" />
   
   <plugin name="cordova-plugin-splashscreen" source="npm" />
-   
-  <preference name = "SplashScreenDelay" value = "8000" />
-  
-  <splash src="splash.png" />
-  
     
+  <preference name="SplashScreen" value="screen"/>
+    
+  <preference name="SplashScreenDelay" value="4000" />
+  
+  <splash platform="android" qualifier="port-ldpi" src="screen/screen-ldpi-portrait.png" />
+  <splash platform="android" qualifier="port-mdpi" src="screen/screen-mdpi-portrait.png" />
+  <splash platform="android" qualifier="port-hdpi" src="screen/screen-hdpi-portrait.png" />
+  <splash platform="android" qualifier="port-xhdpi" src="screen/screen-xhdpi-portrait.png" />
+    
+  <splash platform="android" qualifier="port-ldpi" src="screen/android/screen-ldpi-portrait.png" />
+  <splash platform="android" qualifier="port-mdpi" src="screen/android/screen-mdpi-portrait.png" />
+  <splash platform="android" qualifier="port-hdpi" src="screen/android/screen-hdpi-portrait.png" />
+  <splash platform="android" qualifier="port-xhdpi" src="screen/android/screen-xhdpi-portrait.png" />  
+    
+  <splash src="splash.png" />
     
 </widget>
