@@ -35,6 +35,12 @@
   <plugin name="cordova-plugin-splashscreen" source="npm" />
     
   <preference name="SplashScreen" value="screen"/>
+    
+  <preference name="AutoHideSplashScreen" value="true" />
+    
+  <preference name="SplashScreenDelay" value="3000" />
+ 
+  <preference name="SplashMaintainAspectRatio" value="true|false" />
   
   <splash platform="android" qualifier="port-ldpi" src="screen/splash.png" width="" height=""/>
   <splash platform="android" qualifier="port-mdpi" src="screen/splash.png" width="320" height="480"/>
@@ -48,7 +54,6 @@
     
   <splash src="splash.png" />
     
-  <preference name="AutoHideSplashScreen" value="true" />
-  <preference name="SplashScreenDelay" value="3000" />
+  
     
 </widget>
