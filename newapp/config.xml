@@ -38,15 +38,15 @@
     
   <preference name="SplashScreenDelay" value="4000" />
   
-  <splash platform="android" qualifier="port-ldpi" src="screen/screen-ldpi-portrait.png" />
-  <splash platform="android" qualifier="port-mdpi" src="screen/screen-mdpi-portrait.png" />
-  <splash platform="android" qualifier="port-hdpi" src="screen/screen-hdpi-portrait.png" />
-  <splash platform="android" qualifier="port-xhdpi" src="screen/screen-xhdpi-portrait.png" />
+  <splash platform="android" qualifier="port-ldpi" src="screen/splash.png" />
+  <splash platform="android" qualifier="port-mdpi" src="screen/splash.png" />
+  <splash platform="android" qualifier="port-hdpi" src="screen/splash.png" />
+  <splash platform="android" qualifier="port-xhdpi" src="screen/splash.png" />
     
-  <splash platform="android" qualifier="port-ldpi" src="screen/screen-ldpi-portrait.png" />
-  <splash platform="android" qualifier="port-mdpi" src="screen/screen-mdpi-portrait.png" />
-  <splash platform="android" qualifier="port-hdpi" src="screen/screen-hdpi-portrait.png" />
-  <splash platform="android" qualifier="port-xhdpi" src="screen/screen-xhdpi-portrait.png" />  
+  <splash platform="android" qualifier="port-ldpi" src="screen/splash.png" />
+  <splash platform="android" qualifier="port-mdpi" src="screen/splash.png" />
+  <splash platform="android" qualifier="port-hdpi" src="screen/splash.png" />
+  <splash platform="android" qualifier="port-xhdpi" src="screen/splash.png" />  
     
   <splash src="splash.png" />
     
