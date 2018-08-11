@@ -3,14 +3,14 @@
     xmlns:gap   = "http://phonegap.com/ns/1.0"
     id          = "com.newapp.example"
     versionCode = "10"
-    version     = "2.0.0" >
+    version     = "3.0.0" >
 
 <!-- versionCode is optional and Android only -->
 
-  <name>New App</name>
+  <name>Booking App</name>
 
   <description>
-      An example for phonegap build docs.
+      This is a Beautiful Hotel Booking App.
   </description>
 
   <author href="https://build.phonegap.com" email="lsenapati62@gmail.com">
